@@ -25,7 +25,8 @@ def directors_totals(nds)
           
       movie_index += 1
     end 
-    result.push()
+    result.push("#{nds[director_index][:name]}"=> movie_gross)
+    
     director_index += 1
   end
   
